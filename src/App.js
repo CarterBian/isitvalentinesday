@@ -5,7 +5,7 @@ function App() {
   var today = new Date();
   var month = today.getMonth()+1;
   var date = today.getDate();
-  var isValentinesDay = month == 2 && date == 14;
+  var isValentinesDay = month === 2 && date === 14;
   var text = "";
   if (isValentinesDay){
     text = "YES";
