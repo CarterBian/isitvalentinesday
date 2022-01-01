@@ -1,3 +1,4 @@
 ### Inspired by isitchristmas.com
 
-A forever WIP like all my other stuff. The goal's for this to one day show up on google search.
+The goal's for this to one day show up on google search. 
+![Alt Text](https://media.giphy.com/media/4F4fdXQGUy4eYM4mwI/giphy.gif)
