@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import bear from './assets/bear.gif';
 import './App.css';
 
