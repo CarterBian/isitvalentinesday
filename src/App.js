@@ -12,11 +12,14 @@ function App() {
   }else{
     text = "NO";
   }
+  var vDay = new Date("02/14/2022");
+  var difference = Math.ceil(Math.abs(vDay.getTime() - today.getTime()) / (1000*60*60*24));
   return (
     <div className="App">
       <header className="App-header">
         <img src={bear} alt="logo" />
         <p>{text}</p>
+        <p1>{difference} days left!</p1>
       </header>
     </div>
   );
