@@ -12,8 +12,13 @@ function App() {
   }else{
     text = "NO";
   }
-  var vDay = new Date("02/14/2022");
-  var difference = Math.ceil(Math.abs(vDay.getTime() - today.getTime()) / (1000*60*60*24));
+  var vDay = new Date("02/14/2023");
+  var difference = vDay.getTime() - today.getTime() / (1000*60*60*24);
+  if (difference <= 0) {
+    difference = 0;
+  }else{
+    difference = Math.floor(Math.abs(vDay.getTime() - today.getTime()) / (1000*60*60*24));
+  }
   return (
     <div className="App">
       <header className="App-header">
