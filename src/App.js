@@ -1,4 +1,5 @@
 import bear from './assets/bear.gif';
+import ginkgo from './assets/ginkgo.gif';
 import './App.css';
 
 function App() {
@@ -22,7 +23,8 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={bear} alt="logo" />
+        {/* <img src={bear} alt="logo" /> */}
+        <img src={ginkgo} alt="logo" />
         <p>{text}</p>
         <p1>{difference} days left!</p1>
       </header>
