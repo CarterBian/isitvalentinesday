@@ -1,6 +1,7 @@
 import bear from './assets/bear.gif';
 import ginkgo from './assets/ginkgo.gif';
 import './App.css';
+import 'inter-ui/inter.css';
 
 function App() {
   var today = new Date();
