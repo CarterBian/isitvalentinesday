@@ -1,7 +1,6 @@
-import bear from './assets/bear.gif';
-import ginkgo from './assets/ginkgo.gif';
-import './App.css';
 import 'inter-ui/inter.css';
+import './App.css';
+import ginkgo from './assets/ginkgo.gif';
 
 function App() {
   var today = new Date();
@@ -15,7 +14,7 @@ function App() {
     text = "NO";
   }
   var vDay = new Date("02/14/2023");
-  var difference = vDay.getTime() - today.getTime() / (1000*60*60*24);
+  var difference = vDay.getTime() - today.getTime() / (1000*60*60*24) + 1;
   if (difference <= 0) {
     difference = 0;
   }else{
