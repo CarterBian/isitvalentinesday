@@ -18,7 +18,7 @@ function App() {
   if (difference <= 0) {
     difference = 0;
   }else{
-    difference = Math.floor(Math.abs(vDay.getTime() - today.getTime()) / (1000*60*60*24));
+    difference = Math.floor(Math.abs(vDay.getTime() - today.getTime()) / (1000*60*60*24) + 1);
   }
   return (
     <div className="App">
