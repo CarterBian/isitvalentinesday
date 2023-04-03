@@ -13,12 +13,10 @@ function App() {
   }else{
     text = "NO";
   }
-  var vDay = new Date("02/14/2023");
-  var difference = vDay.getTime() - today.getTime() / (1000*60*60*24) + 1;
+  var vDay = new Date("02/14/2024");
+  var difference = Math.floor((vDay - today) / (1000 * 60 * 60 * 24) + 1);
   if (difference <= 0) {
     difference = 0;
-  }else{
-    difference = Math.floor(Math.abs(vDay.getTime() - today.getTime()) / (1000*60*60*24) + 1);
   }
   return (
     <div className="App">
